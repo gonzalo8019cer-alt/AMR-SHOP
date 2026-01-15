@@ -1,0 +1,35 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AMR SHOP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <span class="logo">AMR SHOP</span>
+  <div class="nav-links">
+    <a href="#products">Products</a>
+    <a href="#cart">Cart (<span id="cartCount">0</span>)</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1>AMR SHOP</h1>
+  <p>The best for the best</p>
+</header>
+
+<section id="products" class="products-grid"></section>
+
+<section id="cart" class="cart">
+  <h2>Your Cart</h2>
+  <div id="cartItems"></div>
+  <button onclick="sendWhatsApp()">Order via WhatsApp</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
